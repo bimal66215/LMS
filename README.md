@@ -1,7 +1,8 @@
 1. Provide the MYSQL db connection details:
 
 
-    `DATABASES = {
+    ```python
+        DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql', ## Backend for MYSQL
             'NAME': 'lms_db', ## Name of the DataBase where app will store the data
@@ -13,7 +14,7 @@
                 'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
             }
         }
-    }`
+    }```
 
 Note: You can create Database from MYSQL workbench using "CREATE DATABASE <name of the DataBase>"
 
