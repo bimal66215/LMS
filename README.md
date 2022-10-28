@@ -4,22 +4,11 @@
     `DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql', ## Backend for MYSQL
-    
             'NAME': 'lms_db', ## Name of the DataBase where app will store the data
-    
-    
             'USER': 'root', ## Username to access the MYSQL DB. Default is 'root'
-    
-    
             'PASSWORD': '1234',## Password for the above user profile
-    
-    
             'HOST': '127.0.0.1', ## Host or IP to connect to MYSQL
-    
-    
             'PORT': '3306', ## Port at which MYSQL is operating
-    
-    
             'OPTIONS': {
                 'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
             }
