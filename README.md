@@ -89,12 +89,11 @@ Note: You can create Database from MYSQL workbench using "CREATE DATABASE <name 
     7.4. Open the url 'http://127.0.0.1:8000/log_api/' and select the Method as GET:<br><br>
     <img src="misc/filter.PNG">
             
-    7.5. You can access some ListViews using the parameters displayed in the above screenshot:
-        
+    7.5. You can access some ListViews using the parameters displayed in the above screenshot:<br><br>
         a. **latest_n_records**: get the latest N records 
         b. **total_records_last_n_hrs**: get the total number of records in N hours.
         c. Or you can filter based on individual fields
-        
+        <br><br>
     7.6. If you want to view all the records, don't provide any parameter.
     
     
