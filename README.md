@@ -90,9 +90,9 @@ Note: You can create Database from MYSQL workbench using "CREATE DATABASE <name 
     <img src="misc/filter.PNG">
             
     7.5. You can access some ListViews using the parameters displayed in the above screenshot:<br><br>
-        a. **latest_n_records**: get the latest N records 
-        b. **total_records_last_n_hrs**: get the total number of records in N hours.
-        c. Or you can filter based on individual fields
+        a. **latest_n_records**: get the latest N records <br>
+        b. **total_records_last_n_hrs**: get the total number of records in N hours.<br>
+        c. Or you can filter based on individual fields<br>
         <br><br>
     7.6. If you want to view all the records, don't provide any parameter.
     
