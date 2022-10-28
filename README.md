@@ -19,33 +19,25 @@
 Note: You can create Database from MYSQL workbench using "CREATE DATABASE <name of the DataBase>"
 
 
-**2.** Make Migrations for the Application:
-
-    Use the below Code:<br><br>
+**2.** Make Migrations for the Application:<br><br>
+        Use the below Code:<br><br>
 
     `python manage.py makemigrations api`
 
-**3.** Apply the Migrations using migrate:
-
-    Use the below Code:<br><br>
+**3.** Apply the Migrations using migrate:<br><br>
+        Use the below Code:<br><br>
 
     `python manage.py migrate`
 
 **4.** Create a Super User:
-    
-    Use the below Code:<br><br>
-    
-    `python manage.py createsuperuser`
-    
-    <img src="misc/img.png">
-    
+        <br><br>Use the below Code:<br><br>
+`python manage.py createsuperuser`<br><br>
+    <img src="misc/img.png"><br><br>
     Press y to skip Password Validation<br><br>
-    
-**5.** Run the Application:<br>
-    Use the below Code:
-    
-    `python manage.py runserver`
-    <br><br>
+
+**5.** Run the Application:<br><br>
+    Use the below Code:<br><br>
+    `python manage.py runserver`<br><br>
     5.1. Click on the address provided in the terminal:
       <br><br>
         <img src="misc/Capture.PNG">
