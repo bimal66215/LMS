@@ -61,13 +61,11 @@ Note: You can create Database from MYSQL workbench using "CREATE DATABASE <name 
         <img src="misc/Capture.PNG">
 
 6. Obtain the Auth Token for the Authentication of any request:<br><br>
-    6.1. Open the url 'http://127.0.0.1:8000/get-api-token/' and provide the Admin Username and Password:
-    
-        <img src="misc/get_token_page.PNG">
+    6.1. Open the url 'http://127.0.0.1:8000/get-api-token/' and provide the Admin Username and Password:<br><br>
+            <img src="misc/get_token_page.PNG">
         
     6.2 Once the Post Request is submitted with Username and Password as the content, we will recieve a response contaning the Toekn ID:
-        
-        <img src="misc/token.PNG">
+            <br><br><img src="misc/post_api.PNG">
         
     Note: Save the Auth Token as it will be required for further request and response cycles.<br><br>
     
@@ -76,12 +74,10 @@ Note: You can create Database from MYSQL workbench using "CREATE DATABASE <name 
     **Post Request/Create**
     <br><br>
     7.1. Open the url 'http://127.0.0.1:8000/log_api/' and provide the following data and select the Method as POST:
-        
-        <img src="misc/token.PNG">
+                <br><br><img src="misc/token.PNG">
         
     7.2. Also In the Header section add another header 'Authorization' and provide the AUth token in the below format:
-            
-          <img src="misc/post_token_auth.PNG">
+            <br><br><img src="misc/post_token_auth.PNG">
           
           _Note: there is a space after 'Token'_
           
@@ -90,9 +86,8 @@ Note: You can create Database from MYSQL workbench using "CREATE DATABASE <name 
         <br>  
     **GET/ READ**
     <br><br>
-    7.4. Open the url 'http://127.0.0.1:8000/log_api/' and select the Method as GET:
-    
-            <img src="misc/filter.PNG">
+    7.4. Open the url 'http://127.0.0.1:8000/log_api/' and select the Method as GET:<br><br>
+    <img src="misc/filter.PNG">
             
     7.5. You can access some ListViews using the parameters displayed in the above screenshot:
         
