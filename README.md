@@ -31,38 +31,36 @@ Note: You can create Database from MYSQL workbench using "CREATE DATABASE <name 
 
 2. Make Migrations for the Application:
 
-    Use the below Code:
+    Use the below Code:<br><br>
 
     `python manage.py makemigrations api`
 
 3. Apply the Migrations using migrate:
 
-    Use the below Code:
+    Use the below Code:<br><br>
 
     `python manage.py migrate`
 
 4. Create a Super User:
     
-    Use the below Code:
+    Use the below Code:<br><br>
     
     `python manage.py createsuperuser`
     
-    <img src=".\misc\img.png"/>Image
+    <img src="misc/img.png">
     
-    Press y to skip Password Validation
+    Press y to skip Password Validation<br><br>
     
-5. Run the Application:
-
+5. Run the Application:<br>
     Use the below Code:
     
     `python manage.py runserver`
-    
+    <br><br>
     5.1. Click on the address provided in the terminal:
-    
-        <img src=".\misc\Capture.PNG"/>image
+      <br>
+        <img src="misc/Capture.PNG">
 
-6. Obtain the Auth Token for the Authentication of any request:
-    
+6. Obtain the Auth Token for the Authentication of any request:<br><br>
     6.1. Open the url 'http://127.0.0.1:8000/get-api-token/' and provide the Admin Username and Password:
     
         <img src=".\misc\get_token_page.PNG"/>image
@@ -71,12 +69,12 @@ Note: You can create Database from MYSQL workbench using "CREATE DATABASE <name 
         
         <img src="D:\PY PROJECTS\Log_management_system\misc\token.PNG"/>image
         
-    Note: Save the Auth Token as it will be required for further request and response cycles.
+    Note: Save the Auth Token as it will be required for further request and response cycles.<br><br>
     
 7. Performing CRUD (Update and Delete not tested and may nto work) Operations with 'log_api/' endpoint:
-    
+    <br><br>
     **Post Request/Create**
-    
+    <br><br>
     7.1. Open the url 'http://127.0.0.1:8000/log_api/' and provide the following data and select the Method as POST:
         
         <img src=".\misc\token.PNG"/>image
@@ -89,9 +87,9 @@ Note: You can create Database from MYSQL workbench using "CREATE DATABASE <name 
           
     7.3. Whenever a log entered into the DataBase using the Post method, the response contains the value entered along with Total count of Warning logs in last 2 Hours'warning_cnt_two_hrs'
     Total count of Error logs in last 2 Hours 'agg_error_cnt_two_hrs'.
-          
+        <br>  
     **GET/ READ**
-    
+    <br><br>
     7.4. Open the url 'http://127.0.0.1:8000/log_api/' and select the Method as GET:
     
             <img src="D:\PY PROJECTS\Log_management_system\misc\filter.PNG"/>image
@@ -102,7 +100,7 @@ Note: You can create Database from MYSQL workbench using "CREATE DATABASE <name 
         b. total_records_last_n_hrs: get the total number of records in N hours.
         c. Or you can filter based on individual fields
         
-    7.5. If you want to view all the records, don't provide any parameter.
+    7.6. If you want to view all the records, don't provide any parameter.
     
     
     
