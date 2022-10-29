@@ -1,3 +1,10 @@
+## **LMS(Log Management System)**
+
+This API can be used in Two Ways:
+
+- Directly while logging in the Application, we just need to pass the 'severity', 'app_name', 'type', 'message' values in the Form Data or in a Json format along with the Post Request
+- You can Upload already populated Log File. File can be uploaded to the endpoint '/log_api/'.
+
 **1.** Provide the MYSQL db connection details:
 
 
@@ -60,7 +67,15 @@ Note: Save the Auth Token as it will be required for further request and respons
                 _Note: there is a space after 'Token'_<br><br>
     7.3. Whenever a log entered into the DataBase using the Post method, the response contains the value entered along with Total count of Warning logs in last 2 Hours **'warning_cnt_two_hrs'**
     and Total count of Error logs in last 2 Hours **'agg_error_cnt_two_hrs'**.
-        <br>  
+        <br>
+    <br><br>
+    **Post Request/Create using File Upload**
+    <br><br>
+    7.4. Open the url 'http://127.0.0.1:8000/log_api/' and upload the File and select the Method as POST:
+        <br><br><img src="misc\POST_file.PNG"/>
+    7.5 Check the Response below for any error in the DateTime field of the Log File.
+        <br><br><img src="misc\POST_file_error.PNG"/>
+    7.6 The Log Entries are now Successfully saved in the DataBase.<br><br>
     **GET/ READ**
     <br><br>
     7.4. Open the url 'http://127.0.0.1:8000/log_api/' and select the Method as GET:<br><br>
