@@ -93,7 +93,7 @@ _Note: Save the Auth Token as it will be required for further request and respon
         c. Or you can filter based on individual fields<br>
         <br><br>
     7.6. If you want to view all the records, don't provide any parameter.<br><br>
-            <img src="misc\READ.PNG"/>
+            <img src="misc\READ.PNG">
 <br><br>
     
     
