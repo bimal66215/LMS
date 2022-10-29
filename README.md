@@ -23,7 +23,7 @@ This API can be used in Two Ways:
         }
     }```
 
-Note: You can create Database from MYSQL workbench using "CREATE DATABASE <name of the DataBase>"
+Note: You can create Database from MYSQL workbench using "CREATE DATABASE <'name of the DataBase'>"
 
 
 **2.** Make Migrations for the Application:<br><br>
