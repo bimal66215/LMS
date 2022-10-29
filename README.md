@@ -54,7 +54,7 @@ Note: You can create Database from MYSQL workbench using "CREATE DATABASE <'name
             <img src="misc/get_token_page.PNG">
     6.2 Once the Post Request is submitted with Username and Password as the content, we will receive a response containing the Token ID:
             <br><br><img src="misc/post_api.PNG">
-Note: Save the Auth Token as it will be required for further request and response cycles.<br><br>
+_Note: Save the Auth Token as it will be required for further request and response cycles._<br><br>
     
 **7.** Performing CRUD (Update and Delete not tested and may nto work) Operations with 'log_api/' endpoint:
     <br><br>
