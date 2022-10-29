@@ -2,6 +2,8 @@
 
 ##### Suggestion: Used POSTMAN in the below Explanation. Please use POSTMAN to send requests and view Responses.
 
+##### Use the Log file present in the Sample_log directory to test.
+
 This API can be used in Two Ways:
 
 - Directly while logging in the Application, we just need to pass the 'severity', 'app_name', 'type', 'message' values in the Form Data or in a Json format along with the Post Request
