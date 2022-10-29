@@ -10,6 +10,8 @@ This API can be used in Two Ways:
 - Directly while logging in the Application, we just need to pass the 'severity', 'app_name', 'type', 'message' values in the Form Data or in a Json format along with the Post Request
 - You can Upload already populated Log File. File can be uploaded to the endpoint '/log_api/'.
 
+**WORKFLOW:**
+
 **1.** Provide the MYSQL db connection details:
 
 
