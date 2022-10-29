@@ -1,13 +1,14 @@
 ## **LMS(Log Management System)**
 
-##### Suggestion: Used POSTMAN in the below Explanation. Please use POSTMAN to send requests and view Responses.
+<font color="DarkOliveGreen">Suggestion: <br><br>
+-Used POSTMAN in the below Explanation. Please use POSTMAN to send requests and view Responses.</font>
 
-##### Use the Log file present in the Sample_log directory to test.
+<font color="DarkOliveGreen">-Use the Log file present in the Sample_log directory to test, OR, create a test case in the same format</font>
 
-This API can be used in Two Ways:
+<font color="DarkKhaki">This API can be used in Two Ways:
 
 - Directly while logging in the Application, we just need to pass the 'severity', 'app_name', 'type', 'message' values in the Form Data or in a Json format along with the Post Request
-- You can Upload already populated Log File. File can be uploaded to the endpoint '/log_api/'.
+- You can Upload already populated Log File. File can be uploaded to the endpoint '/log_api/'.</font>
 
 **1.** Provide the MYSQL db connection details:
 
