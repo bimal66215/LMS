@@ -92,7 +92,9 @@ _Note: Save the Auth Token as it will be required for further request and respon
         b. **total_records_last_n_hrs**: get the total number of records in N hours.<br>
         c. Or you can filter based on individual fields<br>
         <br><br>
-    7.6. If you want to view all the records, don't provide any parameter.
+    7.6. If you want to view all the records, don't provide any parameter.<br><br>
+            <img src="misc\READ.PNG"/>
+<br><br>
     
     
     
